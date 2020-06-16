@@ -247,6 +247,7 @@ DIST          = /home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/spec_pr
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/qt_config.prf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/spec_post.prf \
+		../pythonish/.qmake.stash \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/toolchain.prf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/default_pre.prf \
@@ -470,6 +471,7 @@ Makefile: ../pythonish/pythonish.pro /home/stepan/Programms/QT/5.14.1/gcc_64/mks
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/qt_config.prf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/toolchain.prf \
 		/home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/default_pre.prf \
@@ -682,6 +684,7 @@ Makefile: ../pythonish/pythonish.pro /home/stepan/Programms/QT/5.14.1/gcc_64/mks
 /home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/qt_config.prf:
 /home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/linux-g++/qmake.conf:
 /home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/exclusive_builds.prf:
 /home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/toolchain.prf:
 /home/stepan/Programms/QT/5.14.1/gcc_64/mkspecs/features/default_pre.prf:

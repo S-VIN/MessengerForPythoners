@@ -1,11 +1,28 @@
 #ifndef MESSAGES_H
 #define MESSAGES_H
+#include <vector>
+#include <map>
+#include <QString>
+#include <QTableWidget>
+
+using namespace std;
+
+struct Message{
+    QString name;
+    QString message;
+};
 
 
-class messages
+class Messages
 {
 public:
-    messages();
+    Messages();
+    void addMessage(Message message);
+    int getSize();
+    void printToTable(QTableWidget * table);
+    Message getMessage(int number);
+private:
+    vector<Message> data;
 };
 
 #endif // MESSAGES_H
