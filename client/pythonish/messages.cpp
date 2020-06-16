@@ -1,5 +1,5 @@
 #include "messages.h"
-#include "messages.h"
+#include <QDebug>
 
 Messages::Messages()
 {
@@ -21,10 +21,11 @@ int Messages::getSize()
 
 void Messages::printToTable(QTableWidget *table)
 {
+    //table->clear();
     for(int i = 0; i <= getSize(); i++){
         table->insertRow(i);
-        table->setItem(i, 0, new QTableWidgetItem(data[0].name));
-        table->setItem(i, 1, new QTableWidgetItem(data[0].message));
+        table->setItem(i, 0, new QTableWidgetItem(data[i].name));
+        table->setItem(i, 1, new QTableWidgetItem(data[i].message));
     }
 }
 
