@@ -1,7 +1,6 @@
 #ifndef MESSAGES_H
 #define MESSAGES_H
 #include <vector>
-#include <map>
 #include <QString>
 #include <QTableWidget>
 
