@@ -19,8 +19,10 @@ int Messages::getSize()
 void Messages::printToTable(QTableWidget *table)
 {
     for(int i = 0; i < getSize(); i++){
-        if(table->rowCount() <= i)
+        if(table->rowCount() <= i){
             table->insertRow(i);
+            table->verticalHeader()->setSectionResizeMode(i, QHeaderView::ResizeToContents);
+        }
         table->setItem(i, 0, new QTableWidgetItem(data[i].name));
         table->setItem(i, 1, new QTableWidgetItem(data[i].message));
     }

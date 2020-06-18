@@ -22,4 +22,10 @@ void MainWindow::on_pushButton_clicked()
 {
     messages.addMessage({"stepan", ui->lineEdit->text()});
     messages.printToTable(ui->tableWidget);
+    ui->lineEdit->clear();
+}
+
+void MainWindow::on_lineEdit_returnPressed()
+{
+    on_pushButton_clicked();
 }
